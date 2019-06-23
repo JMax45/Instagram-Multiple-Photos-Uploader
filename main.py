@@ -10,16 +10,16 @@ password = 'password'
 #file da caricare
 onlyfiles = [f for f in listdir
              ("files_to_upload") if isfile(join("files_to_upload", f))]
-length_code_list2 = len(onlyfiles)
-print(length_code_list2)
+length_onlyfiles = len(onlyfiles)
+print(length_onlyfiles)
 
 quantity = 0
 
 with client(username, password) as cli:
-    while quantity < length_code_list2:
+    while quantity < length_onlyfiles:
         file_da_caricare = ("files_to_upload/" + onlyfiles[quantity])
         info_file1 = str(quantity+1)
-        info_quantity = str(length_code_list2)
+        info_quantity = str(length_onlyfiles)
         info_file2 = ("["+info_file1+"/"+info_quantity+"] "+file_da_caricare)
         print(info_file2)
         time.sleep(1)
