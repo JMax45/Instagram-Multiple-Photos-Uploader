@@ -18,6 +18,7 @@ On line 7 and 8 in main.py put your Instagram login and password.
 username = 'username'
 password = 'password'
 ```
+Then copy the photos you want to upload in the folder *files_to_upload* and start the script.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
