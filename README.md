@@ -19,7 +19,7 @@ username = 'username'
 password = 'password'
 ```
 Then copy the photos you want to upload in the folder *files_to_upload* and start the script.
-
+You can delete *test.png* from *files_to_upload*.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
