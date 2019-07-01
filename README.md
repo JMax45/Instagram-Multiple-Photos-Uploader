@@ -2,7 +2,7 @@
 
 IMPU is a Python script for uploading multiple photos in Instagram.
 It's impossible to do with the official apps but this script will help.
-The graphical version of this program is available [here](https://github.com/JMax45/Instagram-Multiple-Photos-Uploader).
+The graphical version of this program is available [here](https://github.com/JMax45/Instagram-Multiple-Photos-Uploader-GUI).
 
 ## Installation
 
